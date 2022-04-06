@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<!-- FXMLController.java connects these components to actions -->
+<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="{{ cookiecutter.groupId }}.FXMLController">
+    <children>
+        <!-- Run the handleButtonAction() method -->
+        <Button layoutX="126" layoutY="90" onAction="#handleButtonAction" text="Click Me!" />
+
+        <!-- Label that will contain the "Hello World" message when the button will be pressed -->
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+    </children>
+</AnchorPane>

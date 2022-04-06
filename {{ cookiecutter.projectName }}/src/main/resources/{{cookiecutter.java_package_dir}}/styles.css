@@ -1,0 +1,4 @@
+/** Sets the font weight inside buttons */
+.button {
+    -fx-font-weight: bold;
+}
